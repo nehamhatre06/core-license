@@ -1,0 +1,57 @@
+#!/bin/bash
+
+set -euo pipefail
+
+set -x
+
+BINDIR="$(dirname "$0")"
+
+STATUS_FILE="/run/meter_license_status"
+LOG_FILE="/run/meter_license_log" # On failure pipe the log to this
+
+rm -f $STATUS_FILE $LOG_FILE
+
+trap 'echo 1 > $STATUS_FILE; cat $LOG_FILE' ERR
+echo 2 > $STATUS_FILE
+
+# Make a curl call to fetch the license
+
+WD="$(mktemp -d)"
+trap 'cd /tmp; rm -rf "$WD"' EXIT
+cd "$WD"
+
+openssl ecparam -genkey -name prime256v1 -noout -out meter.key 2> "$LOG_FILE"
+TLS_PUBKEY="$(openssl ec -in meter.key -pubout -outform DER | base64 -w0)" 2> "$LOG_FILE"
+ssh-keygen -t ed25519 -N '' -f "${HOSTNAME}"_ed25519 2> "$LOG_FILE"
+SSH_PUBKEY="$(cat "${HOSTNAME}"_ed25519.pub)" 2> "$LOG_FILE"
+
+echo -ne "$HOSTNAME\n$TLS_PUBKEY\n$SSH_PUBKEY\n" | \
+	ssh -T -o UserKnownHostsFile="/tmp/tests/tests/known_hosts" -o StrictHostKeyChecking=yes \
+		-o CheckHostIP=no -o IdentitiesOnly=yes -i "/tmp/tests/tests/meter-ca_ed25519" \
+		meter@core-license.barcindia.in 2> "$LOG_FILE" \
+	> ./certs
+exec {certs}<>certs
+read TLS_CERT <&$certs
+IFS='' read SSH_CERT <&$certs
+exec {certs}<>-
+
+# Save the key to persistent location
+
+mkdir /var/local/uploader || true
+mkdir /var/local/uploader/certs || true
+
+openssl x509 -in <(echo "$TLS_CERT" | base64 --decode) -inform DER -out /var/local/uploader/certs/meter.crt -outform PEM 2> "$LOG_FILE"
+mv meter.key /var/local/uploader/certs/meter.key 2> "$LOG_FILE"
+cp /tmp/tests/tests/ca.crt /var/local/uploader/certs/ca.crt 2> "$LOG_FILE"
+echo 'CERTS_PATH="/var/local/uploader/certs/"' > /var/local/uploader.env 2> "$LOG_FILE"
+if [ "$(cat $BINDIR/instance)" == "alpha" ]; then
+	echo 'NATS_URL="nats://broker-coredev.barcindia.in:4222"' >> /var/local/uploader.env 2> "$LOG_FILE"
+fi
+
+mkdir /var/local/portkey || true
+echo "$SSH_CERT" > /var/local/portkey/"${HOSTNAME}"_ed25519-cert.pub 2> "$LOG_FILE"
+mv "${HOSTNAME}_ed25519" /var/local/portkey/"${HOSTNAME}"_ed25519-cert 2> "$LOG_FILE"
+
+sync
+echo 0 > $STATUS_FILE
+exit 0

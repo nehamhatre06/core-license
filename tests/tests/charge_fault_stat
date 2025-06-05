@@ -1,0 +1,40 @@
+#!/usr/bin/python3
+
+import sys
+
+if len(sys.argv) < 4:
+	exit(1)
+
+try:
+	regC = int(sys.argv[1], 16)
+	regThirteen = int(sys.argv[2], 16)
+except Exception:
+	exit(2)
+
+regThirteen = '{0:08b}'.format(regThirteen)[::-1]
+regC = '{0:08b}'.format(regC)[::-1]
+
+final_output = ""
+
+if regThirteen[7] == '1':
+	final_output = final_output + ' VINDPM fault'
+if regThirteen[6] == '1':
+      final_output = final_output + ' IINDPM fault'
+if regC[:3] == '000':
+      final_output = final_output + ' TS NORMAL'
+if regC[:3] == '100':
+      final_output = final_output + ' TS COLD-Buck fault'
+if regC[:3] == '010':
+      final_output = final_output + ' TS HOT-Buck fault'
+if regC[:3] == '101':
+      final_output = final_output + ' TS COLD-Boost fault'
+if regC[:3] == '011':
+      final_output = final_output + ' TS HOT-Boost fault'
+if regC[3] == '1':
+      final_output = final_output + ' BAT OVP fault'
+if regC[4:6] != '00':
+      final_output = final_output + ' CHG fault'
+if regC[6] == '1':
+	final_output = final_output + ' BOOST fault'
+
+print(final_output + " - " + sys.argv[3])

@@ -1,0 +1,69 @@
+#!/bin/bash
+
+RECORD_TIME=10
+START_UP_TIME=15
+WM_SCORES="/run/wm_scores"
+
+BINDIR=$(dirname "$0")
+lineout_aplay_pid=""
+
+on_exit() {
+	systemctl stop aplay_loop.service snapdemo.service receiver.service
+    exit
+}
+
+check_and_exit() {
+	if [[ "$(cat /run/wm_$2_quality)" != *"Good"* ]]; then
+        if [ "$1" -eq 1 ]
+        then
+		    echo 1 > /run/audio_$2_status
+            on_exit
+        fi
+	else
+		echo 0 > /run/audio_$2_status
+        on_exit
+	fi
+}
+
+main() {
+	rm -f /run/wm_$1_quality
+	case $1 in
+	"aux")
+		# Using aux
+		echo 2 > /run/audio_$1_status
+        # Start the services (need this during retest as we kill the services on exit)
+	    systemctl start aplay_loop.service receiver.service snapdemo.service
+        # Clear the wm_scores file.
+        > $WM_SCORES
+	;;
+	*)
+		echo "Usage: $0 [int|ext|aux]"
+		exit 1
+	;;
+	esac
+    # Wait until no.of scores are 5
+    while true
+    do
+        if [[ x"$(awk '{print NF}' $WM_SCORES)" == x"5" ]]
+        then
+            break
+        fi
+    done
+
+	tries=0
+	while [ $tries -le 4 ]
+	do
+		cp /run/wm_quality_recent /run/wm_$1_quality
+        check_and_exit 0 $1
+		sleep $RECORD_TIME
+		tries=$((tries+1))
+	done
+
+    cp /run/wm_quality_recent /run/wm_$1_quality
+    check_and_exit 1 $1
+}
+
+(
+	flock -xn 9
+	main $1
+) 9>/run/audio.Lock

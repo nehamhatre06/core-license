@@ -1,0 +1,38 @@
+#!/bin/sh
+
+set -o errexit
+set -o pipefail
+
+BINDIR=$(dirname "$0")
+echo "$BINDIR"
+SERIAL="$1"
+TOKEN='ba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2c'
+
+on_exit() {
+	popd
+	test -d "$TMPDIR" && rm -rf "$TMPDIR"
+}
+TMPDIR=$(mktemp -d)
+trap on_exit EXIT
+pushd "$TMPDIR" >/dev/null
+
+if [ ! -s /var/local/snap_authcodes/"$SERIAL" ]; then
+	mkdir -p /var/local/snap_authcodes
+	AUTH_CODE=$(/opt/fluctus/kantar/AuthorizationCodeCL | awk 'NR==2{print $NF}' | tee /var/local/snap_authcodes/"$SERIAL")
+else
+	AUTH_CODE=$(cat /var/local/snap_authcodes/"$SERIAL")
+fi
+
+mkdir -p /var/local/snap_licenses
+
+LICENSE=$(curl -k --http1.1 -Lv -d '{"AUTH_CODE": "'"$AUTH_CODE"'", "SERIAL": "'"$SERIAL"'", "TOKEN": "'"$TOKEN"'"}' \
+	-H 'Content-Type: application/json' https://license.brmtr.in/getLicense \
+	| python2 -c \
+	'import json; \
+	 import sys; \
+	 data=json.load(sys.stdin); \
+	 sys.stdout.write(data["license"])')
+
+if [ $? -eq 0 ]; then
+	echo "$LICENSE" > /var/local/snap_licenses/"$SERIAL"
+fi

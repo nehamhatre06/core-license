@@ -1,0 +1,20 @@
+#!/bin/bash
+
+MAX_TRIES=25
+
+tries=0
+while [ $tries -lt $MAX_TRIES ]
+do
+    res=$(powerpcb_comm $@)
+    if [ "$?" -ne 0 ]
+    then
+        tries=$((tries+1))
+        sleep 0.1
+        continue
+    else
+        echo "$res"
+        exit 0
+    fi
+done
+
+exit 1

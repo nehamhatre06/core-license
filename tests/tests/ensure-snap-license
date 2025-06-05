@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -o errexit
+set -o pipefail
+
+BINDIR=$(dirname "$0")
+CPU_SERIAL=$(grep '^Serial\s*:' /proc/cpuinfo | egrep -o '[0-9a-fA-F]+$')
+
+if [ ! -e /var/local/snap_licenses/"$CPU_SERIAL" ] || [ -z "$(cat /var/local/snap_licenses/$CPU_SERIAL)" ]; then
+	"$BINDIR"/fetch-license "$CPU_SERIAL"
+fi
+
+mkdir -p /run/snapdemo
+cp /var/local/snap_licenses/"$CPU_SERIAL" /run/snapdemo/snap_license

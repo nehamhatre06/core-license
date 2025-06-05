@@ -1,0 +1,30 @@
+#!/bin/bash
+
+source /usr/local/lib/debug.shlib
+
+GSM_DEVICE="/dev/ttyGSM2"
+SIM_NO=$1
+DRAIN_TIMEOUT=1
+IMSI_TIMEOUT=4
+CCID_TIMEOUT=4
+
+bailErr() {
+	if [ -z $1 ]
+	then
+		exit 1
+	fi
+}
+
+exec {modemLock}<>/tmp/GSM2.lock
+flock --timeout $(($DRAIN_TIMEOUT + $IMSI_TIMEOUT + $CCID_TIMEOUT + 2)) "$modemLock"
+
+timeout $DRAIN_TIMEOUT cat "$GSM_DEVICE" &>/dev/null || true # Because modems suck
+
+# This script just collects the information from current sim
+imsi=$(echo -en 'AT\nAT\nAT+CIMI\n' | timeout $IMSI_TIMEOUT atinout - $GSM_DEVICE - | sed -n '/^AT+CIMI/{n;p}')
+bailErr $imsi
+
+ccid=$(echo -en 'AT\nAT\nAT+CCID\n' | timeout $CCID_TIMEOUT atinout - $GSM_DEVICE - | sed -n '/^+CCID/{p}' | awk -F':' '{print $2}' | tr -d '[:space:]')
+bailErr $ccid
+
+sed -i "$SIM_NO"'s/.*/'"$imsi"','"$ccid"'/g' /run/sim_info

@@ -1,0 +1,32 @@
+#!/bin/bash
+
+BINDIR="/opt/fluctus/powerpcb"
+
+KEY='PMIC_REG'
+BATTERY_STAT_POS=14
+CHRG_CURR=18
+CHRG_STAT=11
+
+
+# TODO: On error??
+DATA=$(powerpcb_comm "$KEY")
+if [ $? -ne 0 ]
+then
+	echo "Error while fetching data"
+	exit 1
+fi
+
+DATA_ARR=($DATA)
+
+# Convert the data into proper format
+
+# Battery
+"$BINDIR"/format_battery_volt "${DATA_ARR[$BATTERY_STAT_POS]}" > /run/batt_volt
+
+# ADC Current
+"$BINDIR"/format_charge_current "${DATA_ARR[$CHRG_CURR]}" > /run/charge_current
+
+# Charge status
+"$BINDIR"/format_charge_stat "${DATA_ARR[$CHRG_STAT]}" > /run/charge_stat
+
+/tmp/tests/charge_fault_stat "${DATA_ARR[12]}" "${DATA_ARR[19]}" "${DATA_ARR[16]}" > /run/charge_fault_stat

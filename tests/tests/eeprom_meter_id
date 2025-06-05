@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# The serial number is written in following format
+# -------0x00 0x01 0x02 0x03 0x04 0x05 0x06 0x07 0x08 0x09------
+# ------- BA   2C   MSB...........LSB   MSB...........LSB-------
+# -------Identifier  Meter serial No.    Checksum (cksum)-------
+
+bus=1
+chipAddr="0x54"
+
+read() {
+        magic=""
+        for l in {0..1}; do bytes=$(i2cget -y $bus $chipAddr "0x0""$l"); magic="$magic""${bytes:2:2}"; done
+        if [ x"$magic" != x"ba2c" ]; then
+                echo "Magic bytes mismatch" 1>&2
+                return 2
+        fi
+        hexval=""
+        for l in {2..5}; do bytes=$(i2cget -y $bus $chipAddr "0x0""$l"); hexval="$hexval""${bytes:2:2}"; done
+        decval=$(printf "%d" "0x""$hexval")
+
+        echo "verifying the checksum" 1>&2
+        checksum=""
+        for l in {6..9}; do getValue="$(i2cget -y $bus $chipAddr "0x0""$l")"; checksum="$checksum""${getValue:2:2}"; done
+        cksum=$(cksum <(echo "$hexval") | awk '{print $1}')
+        hex_checksum=$(printf "%08x" $cksum)
+        if [[ "$hex_checksum" == "$checksum" ]]; then
+                echo "checksum is verified" 1>&2
+                echo "$decval"
+        else
+                echo "checksum verification failed" 1>&2
+                return 1
+        fi
+}
+
+read
