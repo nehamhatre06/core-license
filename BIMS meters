@@ -1,0 +1,32 @@
+#boot/bootctl.text (show the latest commit)
+brmtr.in/barometer/baro2/bootloader
+boot/config.txt
+boot/boot.scr
+environmental parameters - uploader.env
+sysroot/commit/
+opt/fluctus/jack-detect/main.sh
+var/local/configs
+dbus-monitor \
+AlsaMixer  -- Audio settings 
+Meter ID - Component
+grep -rHn usr/kocal/lib/systemd/system/meter
+vim /usr/local/bin/tv_status
+etc/powerpcb/monitor
+opt/fluctus/powerpcb/ota/normal-mode 
+i2cdetect -y 1
+
+opt/fluctus/powerpcb/ota/flash /etc/powerpcb/powerpcb_main_v17.hex
+
+ls -al /opt/fluctus/powerpcb/monitor
+journalctl -u power-monitor -f 
+set_config REMOTE_ID
+echo 10001553 | set_config REMOTE_ID  
+tv_status 1 (turns ON the TV) #check with journalctl -u remote-data-listener -f
+
+#Vardayanidisplay
+#OTAmigration 
+#BM4baseboard manufacturing 
+#CoreOTAfromUI
+#BIMSostree pushing OTA 
+
+
