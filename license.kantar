@@ -1,0 +1,7 @@
+curl -X POST "http://core-license.barcindia.in/getLicense" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "AUTH_CODE": "1AWMjcjwwMTgg8DQNszAAcikwMTgg7TQQszA9cjwwMTgg8DQQszAAYU44Ljon7UlirDkAb0AyLjEh4zQRsy4Adj4uMTgg7jQVtyMAcjwwMTgg8DQQszAAcjwwAQgw",
+    "SERIAL": "0000000008c587c4",
+    "TOKEN": "ba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2cba2c"
+  }'
