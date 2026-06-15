@@ -1,0 +1,42 @@
+Jun 15 13:54:47 40001260 uploader[621]: ACKed event
+Jun 15 13:54:47 40001260 uploader[621]: Done processing the db file  40001260
+Jun 15 13:58:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 14:03:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 14:05:47 40001260 uploader[621]: Published event 396737
+Jun 15 14:05:47 40001260 uploader[621]: ACKed event
+Jun 15 14:05:47 40001260 uploader[621]: Done processing the db file  40001260
+Jun 15 14:08:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 14:08:53 40001260 uploader[621]: Request for config with resync: false
+Jun 15 14:13:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 14:16:46 40001260 uploader[621]: Published event 396738
+Jun 15 14:16:46 40001260 uploader[621]: ACKed event
+Jun 15 14:16:46 40001260 uploader[621]: Done processing the db file  40001260
+Jun 15 14:18:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 14:23:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 14:23:54 40001260 uploader[621]: Request for config with resync: false
+Jun 15 14:27:46 40001260 uploader[621]: Published event 396739
+Jun 15 14:27:46 40001260 uploader[621]: ACKed event
+Jun 15 14:27:46 40001260 uploader[621]: Done processing the db file  40001260
+Jun 15 14:28:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 14:33:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 14:38:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 14:38:47 40001260 uploader[621]: Published event 396740
+Jun 15 14:38:48 40001260 uploader[621]: ACKed event
+Jun 15 14:38:48 40001260 uploader[621]: Done processing the db file  40001260
+Jun 15 14:38:56 40001260 uploader[621]: Request for config with resync: false
+Jun 15 14:43:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 14:48:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 14:49:46 40001260 uploader[621]: Published event 396741
+Jun 15 14:49:46 40001260 uploader[621]: ACKed event
+Jun 15 14:49:46 40001260 uploader[621]: Done processing the db file  40001260
+Jun 15 14:53:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 14:53:56 40001260 uploader[621]: Request for config with resync: false
+Jun 15 14:58:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 15:00:46 40001260 uploader[621]: Published event 396742
+Jun 15 15:00:47 40001260 uploader[621]: ACKed event
+Jun 15 15:00:47 40001260 uploader[621]: Done processing the db file  40001260
+Jun 15 15:03:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 15:08:43 40001260 uploader[621]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 15:08:57 40001260 uploader[621]: Request for config with resync: false
+▒^C
+40001260 ~ #

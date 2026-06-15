@@ -1,0 +1,29 @@
+Jun 15 15:49:02 40001386 uploader[19120]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 15 15:49:10 40001386 uploader[19120]: Request for config with resync: true
+Jun 15 15:49:18 40001386 uploader[19120]: Published event 347576
+Jun 15 15:49:18 40001386 uploader[19120]: ACKed event
+Jun 15 15:49:18 40001386 uploader[19120]: Done processing the db file  40001386
+Jun 15 15:49:58 40001386 uploader[19120]: Published event 347577
+Jun 15 15:49:58 40001386 uploader[19120]: ACKed event
+Jun 15 15:49:58 40001386 uploader[19120]: Published event 347578
+Jun 15 15:49:58 40001386 uploader[19120]: ACKed event
+Jun 15 15:49:58 40001386 uploader[19120]: Done processing the db file  40001386
+Jun 15 15:50:22 40001386 uploader[19120]: Published event 347579
+Jun 15 15:50:22 40001386 uploader[19120]: ACKed event
+Jun 15 15:50:22 40001386 uploader[19120]: Published event 347580
+Jun 15 15:50:23 40001386 uploader[19120]: ACKed event
+Jun 15 15:50:23 40001386 uploader[19120]: Done processing the db file  40001386
+Jun 15 15:50:43 40001386 uploader[19120]: Published event 347581
+Jun 15 15:50:43 40001386 uploader[19120]: ACKed event
+Jun 15 15:50:43 40001386 uploader[19120]: Done processing the db file  40001386
+Jun 15 15:50:47 40001386 uploader[19120]: Published event 347582
+Jun 15 15:50:47 40001386 uploader[19120]: ACKed event
+Jun 15 15:50:47 40001386 uploader[19120]: Done processing the db file  40001386
+Jun 15 15:51:19 40001386 uploader[19120]: Published event 347583
+Jun 15 15:51:19 40001386 uploader[19120]: ACKed event
+Jun 15 15:51:19 40001386 uploader[19120]: Done processing the db file  40001386
+Jun 15 15:51:53 40001386 uploader[19120]: Published event 347584
+Jun 15 15:51:53 40001386 uploader[19120]: ACKed event
+Jun 15 15:51:53 40001386 uploader[19120]: Published event 347585
+Jun 15 15:51:53 40001386 uploader[19120]: ACKed event
+Jun 15 15:51:53 40001386 uploader[19120]: Done processing the db file  40001386
