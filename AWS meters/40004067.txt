@@ -1,42 +1,48 @@
-Jun 15 15:46:30 40004067 uploader[29460]: Published event 653820
-Jun 15 15:46:30 40004067 uploader[29460]: ACKed event
-Jun 15 15:46:30 40004067 uploader[29460]: Published event 653821
-Jun 15 15:46:30 40004067 uploader[29460]: ACKed event
-Jun 15 15:46:30 40004067 uploader[29460]: Published event 653822
-Jun 15 15:46:30 40004067 uploader[29460]: ACKed event
-Jun 15 15:46:30 40004067 uploader[29460]: Published event 653823
-Jun 15 15:46:31 40004067 uploader[29460]: ACKed event
-Jun 15 15:46:31 40004067 uploader[29460]: Done processing the db file  40004067
-Jun 15 15:47:31 40004067 uploader[29460]: Published event 653824
-Jun 15 15:47:32 40004067 uploader[29460]: ACKed event
-Jun 15 15:47:32 40004067 uploader[29460]: Done processing the db file  40004067
-Jun 15 15:47:42 40004067 uploader[29460]: Published event 653825
-Jun 15 15:47:42 40004067 uploader[29460]: nats: connection closed 40004067 653825
-Jun 15 15:47:47 40004067 uploader[29460]: Published event 653825
-Jun 15 15:47:49 40004067 uploader[29460]: ACKed event
-Jun 15 15:47:49 40004067 uploader[29460]: Published event 653826
-Jun 15 15:47:50 40004067 uploader[29460]: ACKed event
-Jun 15 15:47:50 40004067 uploader[29460]: Published event 653827
-Jun 15 15:47:51 40004067 uploader[29460]: ACKed event
-Jun 15 15:47:51 40004067 uploader[29460]: Done processing the db file  40004067
-Jun 15 15:48:07 40004067 uploader[29460]: Request for config with resync: false
-Jun 15 15:48:11 40004067 uploader[29460]: Published event 653828
-Jun 15 15:48:14 40004067 uploader[29460]: ACKed event
-Jun 15 15:48:14 40004067 uploader[29460]: Done processing the db file  40004067
-Jun 15 15:48:18 40004067 uploader[29460]: Published event 653829
-Jun 15 15:48:19 40004067 uploader[29460]: ACKed event
-Jun 15 15:48:19 40004067 uploader[29460]: Done processing the db file  40004067
-Jun 15 15:48:27 40004067 uploader[29460]: Published event 653830
-Jun 15 15:48:27 40004067 uploader[29460]: ACKed event
-Jun 15 15:48:27 40004067 uploader[29460]: Done processing the db file  40004067
-Jun 15 15:48:35 40004067 uploader[29460]: Published event 653831
-Jun 15 15:48:36 40004067 uploader[29460]: ACKed event
-Jun 15 15:48:36 40004067 uploader[29460]: Published event 653832
-Jun 15 15:48:39 40004067 uploader[29460]: ACKed event
-Jun 15 15:48:39 40004067 uploader[29460]: Done processing the db file  40004067
-Jun 15 15:48:53 40004067 uploader[29460]: Published event 653833
-Jun 15 15:48:55 40004067 uploader[29460]: ACKed event
-Jun 15 15:48:55 40004067 uploader[29460]: Published event 653834
-Jun 15 15:48:56 40004067 uploader[29460]: ACKed event
-Jun 15 15:48:56 40004067 uploader[29460]: Done processing the db file  40004067
-▒^C
+Jun 17 12:31:08 40004067 uploader[579]: Published event 655494
+Jun 17 12:31:08 40004067 uploader[579]: ACKed event
+Jun 17 12:31:08 40004067 uploader[579]: Published event 655495
+Jun 17 12:31:09 40004067 uploader[579]: ACKed event
+Jun 17 12:31:09 40004067 uploader[579]: Done processing the db file  40004067
+Jun 17 12:31:21 40004067 uploader[579]: Published event 655496
+Jun 17 12:31:21 40004067 uploader[579]: ACKed event
+Jun 17 12:31:21 40004067 uploader[579]: Done processing the db file  40004067
+Jun 17 12:31:33 40004067 uploader[579]: Published event 655497
+Jun 17 12:31:33 40004067 uploader[579]: ACKed event
+Jun 17 12:31:33 40004067 uploader[579]: Published event 655498
+Jun 17 12:31:33 40004067 uploader[579]: ACKed event
+Jun 17 12:31:33 40004067 uploader[579]: Done processing the db file  40004067
+Jun 17 12:32:01 40004067 uploader[579]: Published event 655499
+Jun 17 12:32:01 40004067 uploader[579]: ACKed event
+Jun 17 12:32:01 40004067 uploader[579]: Done processing the db file  40004067
+Jun 17 12:32:13 40004067 uploader[579]: Published event 655500
+Jun 17 12:32:14 40004067 uploader[579]: ACKed event
+Jun 17 12:32:14 40004067 uploader[579]: Published event 655501
+Jun 17 12:32:14 40004067 uploader[579]: ACKed event
+Jun 17 12:32:14 40004067 uploader[579]: Done processing the db file  40004067
+Jun 17 12:33:06 40004067 uploader[579]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 12:33:28 40004067 uploader[579]: Published event 655502
+Jun 17 12:33:28 40004067 uploader[579]: ACKed event
+Jun 17 12:33:28 40004067 uploader[579]: Published event 655503
+Jun 17 12:33:28 40004067 uploader[579]: ACKed event
+Jun 17 12:33:28 40004067 uploader[579]: Published event 655504
+Jun 17 12:33:28 40004067 uploader[579]: ACKed event
+Jun 17 12:33:28 40004067 uploader[579]: Published event 655505
+Jun 17 12:33:28 40004067 uploader[579]: ACKed event
+Jun 17 12:33:28 40004067 uploader[579]: Done processing the db file  40004067
+Jun 17 12:33:32 40004067 uploader[579]: Published event 655506
+Jun 17 12:33:33 40004067 uploader[579]: ACKed event
+Jun 17 12:33:33 40004067 uploader[579]: Done processing the db file  40004067
+Jun 17 12:33:37 40004067 uploader[579]: Published event 655507
+Jun 17 12:33:37 40004067 uploader[579]: ACKed event
+Jun 17 12:33:37 40004067 uploader[579]: Published event 655508
+Jun 17 12:33:37 40004067 uploader[579]: ACKed event
+Jun 17 12:33:37 40004067 uploader[579]: Done processing the db file  40004067
+Jun 17 12:34:13 40004067 uploader[579]: Published event 655509
+Jun 17 12:34:13 40004067 uploader[579]: ACKed event
+Jun 17 12:34:13 40004067 uploader[579]: Done processing the db file  40004067
+Jun 17 12:35:35 40004067 uploader[579]: Published event 655510
+Jun 17 12:35:35 40004067 uploader[579]: ACKed event
+Jun 17 12:35:35 40004067 uploader[579]: Published event 655511
+Jun 17 12:35:36 40004067 uploader[579]: ACKed event
+Jun 17 12:35:36 40004067 uploader[579]: Done processing the db file  40004067
+

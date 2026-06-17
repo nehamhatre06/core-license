@@ -1,63 +1,69 @@
-Jun 15 14:20:56 40007099 uploader[11757]: Published event 623012
-Jun 15 14:21:40 40007099 uploader[11757]: MRL: Feature disabled. Will poll again in: 5m0s
-Jun 15 14:21:56 40007099 uploader[11757]: ACK timeout
-Jun 15 14:21:56 40007099 uploader[11757]: Published event 623012
-Jun 15 14:22:52 40007099 uploader[11757]: nats: connection closed 40007099 623012
-Jun 15 14:22:52 40007099 uploader[11757]: Published event 623012
-Jun 15 14:22:52 40007099 uploader[11757]: ACKed event
-Jun 15 14:22:52 40007099 uploader[11757]: Done processing the db file  40007099
-Jun 15 14:26:40 40007099 uploader[11757]: MRL: Feature disabled. Will poll again in: 5m0s
-Jun 15 14:31:40 40007099 uploader[11757]: MRL: Feature disabled. Will poll again in: 5m0s
-Jun 15 14:31:53 40007099 uploader[11757]: Request for config with resync: false
-Jun 15 14:31:53 40007099 uploader[11757]: nats: connection closed
-Jun 15 14:31:53 40007099 uploader[11757]: Request for config with resync: false
-Jun 15 14:31:55 40007099 uploader[11757]: Published event 623013
-Jun 15 14:32:55 40007099 uploader[11757]: ACK timeout
-Jun 15 14:32:55 40007099 uploader[11757]: Published event 623013
-Jun 15 14:33:55 40007099 uploader[11757]: ACK timeout
-Jun 15 14:33:55 40007099 uploader[11757]: Published event 623013
-Jun 15 14:34:55 40007099 uploader[11757]: ACK timeout
-Jun 15 14:34:55 40007099 uploader[11757]: Published event 623013
-Jun 15 14:35:55 40007099 uploader[11757]: ACK timeout
-Jun 15 14:35:55 40007099 uploader[11757]: Published event 623013
-Jun 15 14:36:40 40007099 uploader[11757]: MRL: Feature disabled. Will poll again in: 5m0s
-Jun 15 14:36:55 40007099 uploader[11757]: ACK timeout
-Jun 15 14:36:55 40007099 uploader[11757]: Published event 623013
-Jun 15 14:37:53 40007099 uploader[11757]: nats: connection closed 40007099 623013
-Jun 15 14:37:54 40007099 uploader[11757]: Published event 623013
-Jun 15 14:37:54 40007099 uploader[11757]: ACKed event
-Jun 15 14:37:54 40007099 uploader[11757]: Done processing the db file  40007099
-Jun 15 14:41:40 40007099 uploader[11757]: MRL: Feature disabled. Will poll again in: 5m0s
-Jun 15 14:42:56 40007099 uploader[11757]: Published event 623014
-Jun 15 14:43:54 40007099 uploader[11757]: nats: connection closed 40007099 623014
-Jun 15 14:43:55 40007099 uploader[11757]: Published event 623014
-Jun 15 14:43:55 40007099 uploader[11757]: ACKed event
-Jun 15 14:43:55 40007099 uploader[11757]: Done processing the db file  40007099
-Jun 15 14:46:40 40007099 uploader[11757]: MRL: Feature disabled. Will poll again in: 5m0s
-Jun 15 14:46:55 40007099 uploader[11757]: Request for config with resync: false
-Jun 15 14:51:40 40007099 uploader[11757]: MRL: Feature disabled. Will poll again in: 5m0s
-Jun 15 14:53:55 40007099 uploader[11757]: Published event 623015
-Jun 15 14:53:55 40007099 uploader[11757]: nats: connection closed 40007099 623015
-Jun 15 14:53:56 40007099 uploader[11757]: Published event 623015
-Jun 15 14:53:57 40007099 uploader[11757]: ACKed event
-Jun 15 14:53:57 40007099 uploader[11757]: Done processing the db file  40007099
-Jun 15 14:56:40 40007099 uploader[11757]: MRL: Feature disabled. Will poll again in: 5m0s
-Jun 15 15:01:40 40007099 uploader[11757]: MRL: Feature disabled. Will poll again in: 5m0s
-Jun 15 15:01:57 40007099 uploader[11757]: Request for config with resync: false
-Jun 15 15:01:57 40007099 uploader[11757]: nats: connection closed
-Jun 15 15:01:58 40007099 uploader[11757]: Request for config with resync: false
-Jun 15 15:04:56 40007099 uploader[11757]: Published event 623016
-Jun 15 15:05:56 40007099 uploader[11757]: ACK timeout
-Jun 15 15:05:56 40007099 uploader[11757]: Published event 623016
-Jun 15 15:06:40 40007099 uploader[11757]: MRL: Feature disabled. Will poll again in: 5m0s
-Jun 15 15:06:56 40007099 uploader[11757]: ACK timeout
-Jun 15 15:06:56 40007099 uploader[11757]: Published event 623016
-Jun 15 15:07:56 40007099 uploader[11757]: ACK timeout
-Jun 15 15:07:56 40007099 uploader[11757]: Published event 623016
-Jun 15 15:07:58 40007099 uploader[11757]: nats: connection closed 40007099 623016
-Jun 15 15:07:58 40007099 uploader[11757]: Published event 623016
-Jun 15 15:07:59 40007099 uploader[11757]: ACKed event
-Jun 15 15:07:59 40007099 uploader[11757]: Done processing the db file  40007099
-Jun 15 15:11:40 40007099 uploader[11757]: MRL: Feature disabled. Will poll again in: 5m0s
-▒^C
-40007099 ~ #
+Jun 17 11:45:57 40007099 uploader[612]: Published event 623184
+Jun 17 11:46:57 40007099 uploader[612]: ACK timeout
+Jun 17 11:46:57 40007099 uploader[612]: Published event 623184
+Jun 17 11:47:57 40007099 uploader[612]: ACK timeout
+Jun 17 11:47:57 40007099 uploader[612]: Published event 623184
+Jun 17 11:48:57 40007099 uploader[612]: ACK timeout
+Jun 17 11:48:57 40007099 uploader[612]: Published event 623184
+Jun 17 11:49:03 40007099 uploader[612]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 11:49:57 40007099 uploader[612]: nats: connection closed 40007099 623184
+Jun 17 11:49:58 40007099 uploader[612]: Published event 623184
+Jun 17 11:49:58 40007099 uploader[612]: ACKed event
+Jun 17 11:49:58 40007099 uploader[612]: Published event 623185
+Jun 17 11:50:58 40007099 uploader[612]: ACK timeout
+Jun 17 11:50:58 40007099 uploader[612]: Published event 623185
+Jun 17 11:51:58 40007099 uploader[612]: ACK timeout
+Jun 17 11:51:58 40007099 uploader[612]: Published event 623185
+Jun 17 11:52:58 40007099 uploader[612]: ACK timeout
+Jun 17 11:52:58 40007099 uploader[612]: Published event 623185
+Jun 17 11:53:58 40007099 uploader[612]: ACK timeout
+Jun 17 11:53:58 40007099 uploader[612]: Published event 623185
+Jun 17 11:54:03 40007099 uploader[612]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 11:54:58 40007099 uploader[612]: ACK timeout
+Jun 17 11:54:58 40007099 uploader[612]: Published event 623185
+Jun 17 11:55:58 40007099 uploader[612]: nats: connection closed 40007099 623185
+Jun 17 11:55:59 40007099 uploader[612]: Published event 623185
+Jun 17 11:55:59 40007099 uploader[612]: ACKed event
+Jun 17 11:55:59 40007099 uploader[612]: Published event 623186
+Jun 17 11:56:59 40007099 uploader[612]: ACK timeout
+Jun 17 11:56:59 40007099 uploader[612]: Published event 623186
+Jun 17 11:57:59 40007099 uploader[612]: ACK timeout
+Jun 17 11:57:59 40007099 uploader[612]: Published event 623186
+Jun 17 11:58:59 40007099 uploader[612]: ACK timeout
+Jun 17 11:58:59 40007099 uploader[612]: Published event 623186
+Jun 17 11:59:03 40007099 uploader[612]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 11:59:59 40007099 uploader[612]: ACK timeout
+Jun 17 11:59:59 40007099 uploader[612]: Request for config with resync: false
+Jun 17 11:59:59 40007099 uploader[612]: Published event 623186
+Jun 17 12:00:59 40007099 uploader[612]: ACK timeout
+Jun 17 12:00:59 40007099 uploader[612]: Published event 623186
+Jun 17 12:01:59 40007099 uploader[612]: nats: connection closed 40007099 623186
+Jun 17 12:01:59 40007099 uploader[612]: Published event 623186
+Jun 17 12:02:00 40007099 uploader[612]: ACKed event
+Jun 17 12:02:00 40007099 uploader[612]: Published event 623187
+Jun 17 12:03:00 40007099 uploader[612]: ACK timeout
+Jun 17 12:03:00 40007099 uploader[612]: Published event 623187
+Jun 17 12:04:00 40007099 uploader[612]: ACK timeout
+Jun 17 12:04:00 40007099 uploader[612]: Published event 623187
+Jun 17 12:04:03 40007099 uploader[612]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 12:05:00 40007099 uploader[612]: ACK timeout
+Jun 17 12:05:00 40007099 uploader[612]: Published event 623187
+Jun 17 12:06:00 40007099 uploader[612]: ACK timeout
+Jun 17 12:06:00 40007099 uploader[612]: Published event 623187
+Jun 17 12:07:00 40007099 uploader[612]: ACK timeout
+Jun 17 12:07:00 40007099 uploader[612]: Published event 623187
+Jun 17 12:07:59 40007099 uploader[612]: nats: connection closed 40007099 623187
+Jun 17 12:08:00 40007099 uploader[612]: Published event 623187
+Jun 17 12:08:00 40007099 uploader[612]: ACKed event
+Jun 17 12:08:00 40007099 uploader[612]: Published event 623188
+Jun 17 12:09:00 40007099 uploader[612]: ACK timeout
+Jun 17 12:09:00 40007099 uploader[612]: Published event 623188
+Jun 17 12:09:03 40007099 uploader[612]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 12:10:00 40007099 uploader[612]: ACK timeout
+Jun 17 12:10:00 40007099 uploader[612]: Published event 623188
+Jun 17 12:11:00 40007099 uploader[612]: ACK timeout
+Jun 17 12:11:00 40007099 uploader[612]: Published event 623188
+Jun 17 12:12:00 40007099 uploader[612]: ACK timeout
+Jun 17 12:12:00 40007099 uploader[612]: Published event 623188
+Jun 17 12:13:00 40007099 uploader[612]: ACK timeout
+Jun 17 12:13:00 40007099 uploader[612]: Published event 623188

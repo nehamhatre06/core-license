@@ -1,0 +1,53 @@
+Jun 17 11:44:23 40014125 uploader[788]: Published event 960149
+Jun 17 11:44:23 40014125 uploader[788]: ACKed event
+Jun 17 11:44:23 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:44:31 40014125 uploader[788]: Published event 960150
+Jun 17 11:44:31 40014125 uploader[788]: ACKed event
+Jun 17 11:44:31 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:44:35 40014125 uploader[788]: Published event 960151
+Jun 17 11:44:35 40014125 uploader[788]: ACKed event
+Jun 17 11:44:35 40014125 uploader[788]: Published event 960152
+Jun 17 11:44:35 40014125 uploader[788]: ACKed event
+Jun 17 11:44:36 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:44:52 40014125 uploader[788]: Published event 960153
+Jun 17 11:44:52 40014125 uploader[788]: ACKed event
+Jun 17 11:44:52 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:45:00 40014125 uploader[788]: Published event 960154
+Jun 17 11:45:00 40014125 uploader[788]: ACKed event
+Jun 17 11:45:00 40014125 uploader[788]: Published event 960155
+Jun 17 11:45:00 40014125 uploader[788]: ACKed event
+Jun 17 11:45:00 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:45:16 40014125 uploader[788]: Published event 960156
+Jun 17 11:45:16 40014125 uploader[788]: ACKed event
+Jun 17 11:45:16 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:45:28 40014125 uploader[788]: Published event 960157
+Jun 17 11:45:28 40014125 uploader[788]: ACKed event
+Jun 17 11:45:28 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:46:14 40014125 uploader[788]: Published event 960158
+Jun 17 11:46:15 40014125 uploader[788]: ACKed event
+Jun 17 11:46:15 40014125 uploader[788]: Published event 960159
+Jun 17 11:46:15 40014125 uploader[788]: ACKed event
+Jun 17 11:46:15 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:46:27 40014125 uploader[788]: Published event 960160
+Jun 17 11:46:27 40014125 uploader[788]: ACKed event
+Jun 17 11:46:27 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:47:03 40014125 uploader[788]: Published event 960161
+Jun 17 11:47:03 40014125 uploader[788]: ACKed event
+Jun 17 11:47:03 40014125 uploader[788]: Published event 960162
+Jun 17 11:47:03 40014125 uploader[788]: ACKed event
+Jun 17 11:47:03 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:47:19 40014125 uploader[788]: Published event 960163
+Jun 17 11:47:19 40014125 uploader[788]: ACKed event
+Jun 17 11:47:20 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:47:36 40014125 uploader[788]: Published event 960164
+Jun 17 11:47:36 40014125 uploader[788]: ACKed event
+Jun 17 11:47:36 40014125 uploader[788]: Published event 960165
+Jun 17 11:47:36 40014125 uploader[788]: ACKed event
+Jun 17 11:47:36 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:47:56 40014125 uploader[788]: Published event 960166
+Jun 17 11:47:56 40014125 uploader[788]: ACKed event
+Jun 17 11:47:58 40014125 uploader[788]: Published event 960167
+Jun 17 11:47:58 40014125 uploader[788]: ACKed event
+Jun 17 11:47:58 40014125 uploader[788]: Done processing the db file  40014125
+Jun 17 11:49:11 40014125 uploader[788]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 11:54:11 40014125 uploader[788]: MRL: Feature disabled. Will poll again in: 5m0s
