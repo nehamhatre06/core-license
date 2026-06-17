@@ -1,0 +1,57 @@
+Jun 17 16:20:40 40017922 uploader[751]: Published event 281788
+Jun 17 16:20:40 40017922 uploader[751]: ACKed event
+Jun 17 16:20:40 40017922 uploader[751]: Done processing the db file  40017922
+Jun 17 16:23:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 16:28:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 16:30:07 40017922 uploader[751]: Request for config with resync: false
+Jun 17 16:30:07 40017922 uploader[751]: nats: connection closed
+Jun 17 16:30:08 40017922 uploader[751]: Request for config with resync: false
+Jun 17 16:31:40 40017922 uploader[751]: Published event 281789
+Jun 17 16:31:40 40017922 uploader[751]: ACKed event
+Jun 17 16:31:40 40017922 uploader[751]: Done processing the db file  40017922
+Jun 17 16:33:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 16:38:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 16:42:40 40017922 uploader[751]: Published event 281790
+Jun 17 16:42:41 40017922 uploader[751]: ACKed event
+Jun 17 16:42:41 40017922 uploader[751]: Done processing the db file  40017922
+Jun 17 16:43:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 16:45:09 40017922 uploader[751]: Request for config with resync: false
+Jun 17 16:48:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 16:53:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 16:53:41 40017922 uploader[751]: Published event 281791
+Jun 17 16:53:41 40017922 uploader[751]: ACKed event
+Jun 17 16:53:41 40017922 uploader[751]: Done processing the db file  40017922
+Jun 17 16:58:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:00:09 40017922 uploader[751]: Request for config with resync: false
+Jun 17 17:03:09 40017922 uploader[751]: Published event 281792
+Jun 17 17:03:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:04:09 40017922 uploader[751]: ACK timeout
+Jun 17 17:04:09 40017922 uploader[751]: Published event 281792
+Jun 17 17:05:09 40017922 uploader[751]: ACK timeout
+Jun 17 17:05:09 40017922 uploader[751]: Published event 281792
+Jun 17 17:05:27 40017922 uploader[751]: nats: connection closed 40017922 281792
+Jun 17 17:05:29 40017922 uploader[751]: Published event 281792
+Jun 17 17:05:29 40017922 uploader[751]: ACKed event
+Jun 17 17:05:29 40017922 uploader[751]: Published event 281793
+Jun 17 17:05:29 40017922 uploader[751]: ACKed event
+Jun 17 17:05:29 40017922 uploader[751]: Published event 281794
+Jun 17 17:05:30 40017922 uploader[751]: ACKed event
+Jun 17 17:05:30 40017922 uploader[751]: Done processing the db file  40017922
+Jun 17 17:08:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:13:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:15:10 40017922 uploader[751]: Request for config with resync: false
+Jun 17 17:18:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:23:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:26:40 40017922 uploader[751]: Published event 281795
+Jun 17 17:26:41 40017922 uploader[751]: ACKed event
+Jun 17 17:26:41 40017922 uploader[751]: Done processing the db file  40017922
+Jun 17 17:28:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:30:11 40017922 uploader[751]: Request for config with resync: false
+Jun 17 17:33:36 40017922 uploader[751]: MRL: Feature disabled. Will poll again in: 5m0s
+
+
+Jun 17 17:37:40 40017922 uploader[751]: Published event 281796
+Jun 17 17:37:40 40017922 uploader[751]: nats: connection closed 40017922 281796
+Jun 17 17:37:41 40017922 uploader[751]: Published event 281796
+Jun 17 17:37:41 40017922 uploader[751]: ACKed event
+Jun 17 17:37:41 40017922 uploader[751]: Done processing the db file  40017922

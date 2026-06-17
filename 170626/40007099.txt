@@ -1,0 +1,38 @@
+40007099 ~ # journalctl -fu uploader
+-- Logs begin at Fri 2017-10-06 13:48:05 IST. --
+Jun 17 17:05:54 40007099 uploader[612]: ACKed event
+Jun 17 17:05:54 40007099 uploader[612]: Done processing the db file  40007099
+Jun 17 17:09:03 40007099 uploader[612]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:09:32 40007099 uploader[612]: Request for config with resync: false
+Jun 17 17:14:03 40007099 uploader[612]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:19:03 40007099 uploader[612]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:24:03 40007099 uploader[612]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:24:32 40007099 uploader[612]: Request for config with resync: false
+Jun 17 17:24:32 40007099 uploader[612]: nats: connection closed
+Jun 17 17:24:33 40007099 uploader[612]: Request for config with resync: false
+Jun 17 17:27:07 40007099 uploader[612]: Published event 623432
+Jun 17 17:28:07 40007099 uploader[612]: ACK timeout
+Jun 17 17:28:07 40007099 uploader[612]: Published event 623432
+Jun 17 17:29:03 40007099 uploader[612]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:29:07 40007099 uploader[612]: ACK timeout
+Jun 17 17:29:07 40007099 uploader[612]: Published event 623432
+Jun 17 17:30:07 40007099 uploader[612]: ACK timeout
+Jun 17 17:30:07 40007099 uploader[612]: Published event 623432
+Jun 17 17:30:33 40007099 uploader[612]: nats: connection closed 40007099 623432
+Jun 17 17:30:37 40007099 uploader[612]: Published event 623432
+Jun 17 17:31:37 40007099 uploader[612]: ACK timeout
+Jun 17 17:31:37 40007099 uploader[612]: Published event 623432
+Jun 17 17:32:37 40007099 uploader[612]: ACK timeout
+Jun 17 17:32:37 40007099 uploader[612]: Published event 623432
+Jun 17 17:33:37 40007099 uploader[612]: ACK timeout
+Jun 17 17:33:37 40007099 uploader[612]: Published event 623432
+Jun 17 17:34:03 40007099 uploader[612]: MRL: Feature disabled. Will poll again in: 5m0s
+Jun 17 17:34:37 40007099 uploader[612]: ACK timeout
+Jun 17 17:34:37 40007099 uploader[612]: Published event 623432
+Jun 17 17:35:37 40007099 uploader[612]: ACK timeout
+Jun 17 17:35:37 40007099 uploader[612]: Published event 623432
+Jun 17 17:36:37 40007099 uploader[612]: nats: connection closed 40007099 623432
+Jun 17 17:36:38 40007099 uploader[612]: Published event 623432
+Jun 17 17:36:38 40007099 uploader[612]: ACKed event
+Jun 17 17:36:38 40007099 uploader[612]: Done processing the db file  40007099
+Jun 17 17:38:06 40007099 uploader[612]: Published event 623433
