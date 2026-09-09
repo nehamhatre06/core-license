@@ -1,3 +1,15 @@
+curl -v -X POST "http://10.10.8.103:8085/api/publishlinuxota" \
+-H "Content-Type: application/json" \
+-d '{
+  "meterIds": [40007099],
+  "buildBranch": "bm4prod01",
+  "buildVersion": "0.1.3",
+  "otaCommit": "a039fedeb0390b893d3f97572b91106e362880e1c90166b5989a264166d3d516"
+}'
+
+
+
+
 syncclient.crt
 -----BEGIN CERTIFICATE-----
 MIIB9zCCAZ2gAwIBAgIUSdDa2Z5afx/lM3l1Ml2UycyAPlgwCgYIKoZIzj0EAwIw
