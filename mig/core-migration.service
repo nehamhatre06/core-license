@@ -1,0 +1,18 @@
+[Unit]
+Description=core meter migration
+
+ConditionPathExists=!/var/local/uploader/.license_done
+
+After=network-online.target record-ota-success.service
+Requires=network-online.target record-ota-success.service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/fluctus/mig/meter-license.sh
+RemainAfterExit=yes
+
+Restart=on-failure
+RestartSec=60s
+
+[Install]
+WantedBy=multi-user.target
